@@ -1,0 +1,61 @@
+body{
+    box-sizing: border-box;
+    font-family: sans-cherif;
+    margin:0;
+    padding:0;
+    color:#333
+}
+h2{
+    margin: 5px;
+}
+
+h3{
+    margin: 5px;  
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    background-color: #3339;
+  }
+
+.form{
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 5px;
+}
+.form > input{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    margin: 5px;
+}
+.button{
+    padding:5px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.delete-btn{
+    background-color: firebrick;
+    color:whitesmoke
+}
+
+.edit-btn{
+    background-color: cornflowerblue;
+    color:whitesmoke
+}
+
+.officer-container{
+    display: flex;
+    flex-direction: column;
+    margin:0 32px;
+}
+
+.officer{
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 5px;
+}
